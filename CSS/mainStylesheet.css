@@ -8,6 +8,199 @@ body{
     background-color: #050109;
 }
 
+.mainHeaderWrapper{
+    display: flex;
+    background: repeating-radial-gradient(#7039F0 , #A657F8)
+    width: 100%;
+    justify-content: center;
+    background: rgba(94, 94, 94, 0.10);
+
+}
+.logoDiv{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logoText{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mainHeaderDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    width: 100%;
+    max-width: 1050px;
+}
+.headerTextsMiddleDiv{
+    display: flex;
+    width: 100%;
+    max-width: 455px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 1px solid #5C6069;
+}
+.aboutFrame{
+    display: flex;
+    padding: 8px 12px;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 24px;
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+}
+.headerNavBarText{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.servicesDiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.headerRightDiv{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 278px;
+}
+.premiumFrame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 24px;
+    border: 1px solid #5C6069;
+}
+a{
+    text-decoration-line: none;
+}
+.createAccountFrame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 24px;
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+}
+
+.mainFirstContainerWrapper{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(200px);
+    background: repeating-linear-gradient(#10121B, #201238);
+}
+.mainImgDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.mainImg{
+    position: absolute;
+    bottom: 0px;
+    z-index: -5;
+}
+.textsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+h1{
+    font-size: 56px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+}
+.mainContainerLandingPage{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 996px;
+    align-items: center;
+    margin-top: 70px;
+}
+.miniPurpleText{
+    color: #D9DCEB;
+    font-size: 24px;
+}
+.center{
+    text-align: center;
+}
+.positioned{
+    padding: 8px 24px;
+    position: relative;
+}
+.newDiv{
+    left: -13px;
+    top: -15px;
+    position: absolute;
+}
+.padding{
+    padding: 8px 24px;
+}
+.whiteMiniTex{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+}
+
+.avatarsImagesFrame{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatarssDiv{
+    display: flex;
+    position: relative;
+    width: 168px;
+}
+.firstAvatar, .secondAvatar, .thirdAvatar, .fourthAvatar{
+    position: absolute;
+    top: -20px;
+}
+.firstAvatar{
+    left: 0px;
+}
+.secondAvatar{
+    z-index: ;
+    left: 34px;
+}
+.thirdAvatar{
+    right: 43px;
+    z-index: ;
+}
+.fourthAvatar{
+    right: 10px;
+    z-index: ;
+}
+.size{
+    width: 95px;
+    padding-top: 10px;
+    text-align: center;
+}
+.miniPurpleeText{
+    color: #D9DCEB;
+    font-size: 14px;
+}
+
+
+
+
+
+
 .mainCOntainerWrapper{
     padding: 80px;
     display: flex;
